@@ -1,5 +1,13 @@
+## Data Science Coursera
 
-###Files in this repository:
+###Coursera Data Scientist's Toolbox Course Project
+
+#### HelloWorld.md
+
+
+###Getting and Cleaning Data Course Project
+
+####Files in this project:
 =========================
  
 * a tidy dataset called "dataMean.txt",
@@ -7,26 +15,26 @@
 * a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called "CodeBook.md",
 * a ReadMe.md explains how all of the scripts work and how they are connected.
 
-###How to run the R script "run_analysis.R",
+####How to run the R script "run_analysis.R",
 ========================================
 
-1), Put the "run_analysis.R" file in the dataset folder/directory called "UCI_HAR_Dataset";
-2), type command: source "run_analysis.R".
+* Put the "run_analysis.R" file in the dataset folder/directory called "UCI_HAR_Dataset";
+* Type command: source "run_analysis.R".
 
-###This R script works as follows:
+####This R script works as follows:
 ==============================
  
-1), Read in the "feature.txt" in the "UCI HAR Dataset" folder/directory as the variable/column names;
-2), Read in the "y_train.txt" "subject_train.txt" files in the train directory/folder; "y_test.txt" "subject_test.txt" files in the test/directory files as the observation labels for the dataset: subjects 1-30 and activity 1-6 numbers corresponding to each activity described in "activity_labels.txt";
-3), Read in the "X_train.txt" from train folder/directory and "X_test.txt" datasets from test folder/directory;
-4), Label the train and test data sets with descriptive variable(column)names;
-5), Column bind the subject and activity observation labels to the train and test datasets
-6), Change the activity numbers to descriptive activity names in the data set;
-7), Extracts only the measurements on the mean and standard deviation for each measurement.  
-8), Merges the training and the test sets to create one data set;  
-9), Creates a second, independent tidy data set called "dataMean.txt" with the average of each variable for each activity and subject.
+* Read in the "feature.txt" in the "UCI HAR Dataset" folder/directory as the variable/column names;
+* Read in the "y_train.txt" "subject_train.txt" files in the train directory/folder; "y_test.txt" "subject_test.txt" files in the test/directory files as the observation labels for the dataset: subjects 1-30 and activity 1-6 numbers corresponding to each activity described in "activity_labels.txt";
+* Read in the "X_train.txt" from train folder/directory and "X_test.txt" datasets from test folder/directory;
+* Label the train and test data sets with descriptive variable(column)names;
+* Column bind the subject and activity observation labels to the train and test datasets
+* Change the activity numbers to descriptive activity names in the data set;
+* Extracts only the measurements on the mean and standard deviation for each measurement.  
+* Merges the training and the test sets to create one data set;  
+* Creates a second, independent tidy data set called "dataMean.txt" with the average of each variable for each activity and subject.
 
-###The dataset folder/directory "UCI_HAR_Dataset" includes the following files:
+####The dataset folder/directory "UCI_HAR_Dataset" includes the following files:
 ============================================================================
 
 - 'README.txt'
@@ -55,8 +63,10 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-###Notes: 
+####Notes for the dataset: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
+
+
 

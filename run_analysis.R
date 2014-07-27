@@ -1,5 +1,5 @@
 
-setwd("UCI HAR Dataset")
+##setwd("UCI HAR Dataset")
 
 ## read in variable names and observation labels
 feat = read.table("features.txt",header=F)
