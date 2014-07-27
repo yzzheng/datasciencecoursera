@@ -15,12 +15,12 @@
 * a ReadMe.md explains how all of the scripts work and how they are connected.
 
 ####How to run the R script "run_analysis.R",
-========================================
+===========================================
 * Put the "run_analysis.R" file in the dataset folder/directory called "UCI_HAR_Dataset";
 * Type command: source "run_analysis.R".
 
 ####This R script works as follows:
-============================== 
+================================== 
 * Read in the "feature.txt" in the "UCI HAR Dataset" folder/directory as the variable/column names;
 * Read in the "y_train.txt" "subject_train.txt" files in the train directory/folder; "y_test.txt" "subject_test.txt" files in the test/directory files as the observation labels for the dataset: subjects 1-30 and activity 1-6 numbers corresponding to each activity described in "activity_labels.txt";
 * Read in the "X_train.txt" from train folder/directory and "X_test.txt" datasets from test folder/directory;
@@ -32,7 +32,7 @@
 * Creates a second, independent tidy data set called "dataMean.txt" with the average of each variable for each activity and subject.
 
 ####The dataset folder/directory "UCI_HAR_Dataset" includes the following files:
-==============================================================
+===============================================================================
 - 'README.txt'
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -59,7 +59,8 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-####Notes for the dataset: 
+####Notes for the dataset:
+========================== 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
